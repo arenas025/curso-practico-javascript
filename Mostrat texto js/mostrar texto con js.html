@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de altura de Tríangulo Isosceles</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido, esta es la página donde puedes calcular la altura de cualquier triangulo</h1>
+        <h2>Claramente, que sea Isosceles</h2>
+        <h3>Triangulo Isosceles:</h3> <p>Es un tríangulo que tiene 2 lados iguales</p>
+    </header>
+    <main>
+        <div>
+        Por favor introduce los lados de tu triangulo por aquí
+        </div>
+        <script src="./logica.js"></script>
+        <form>
+            <input id="inputlado" type="number" placeholder="Longitud de lados iguales ">
+        </form>
+        <form >
+            <input id="inputbase" type="number" placeholder="Longitud de la base">
+        </form>
+        <button type="button" onclick="alturatriangulou()">
+            Calcular la altura 
+        </button>
+        <p>Resultado:</p> 
+        <p id="Altura_triangulo"> </p>
+    </main>
+</body>
+</html>
