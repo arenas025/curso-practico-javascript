@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de figuras</title>
+    <link rel="stylesheet" href="./calcular_figuras.css">
+</head>
+<body>
+        <header>
+            <div class="header_logo"></div>
+            <div class="header_informacion">
+                <ul>
+                    <li><a class="link_header" href="https://github.com/arenas025/"target="_blank" >GitHub</a></li>
+                    <li><a class="link_header" href="https://sergioarenas.com/"target="_blank">Web personal</a></li>
+                    <li><a class="link_header" href="https://www.instagram.com/arenasergio/"target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </header>   
+    <main>
+        <div class="triangulo">
+            <div id="triangulo_titulo" >Calcula la altura de un <br>triángulo isósceles</div>
+        <div>Por favor introduce los lados de tu tríangulo por aquí</div>
+        <script src="./calcular_figuras.js"></script>
+        <form>
+            <input id="inputlado" type="number" placeholder="Longitud de lados iguales ">
+        </form>
+        <form >
+            <input id="inputbase" type="number" placeholder="Longitud de la base">
+        </form>
+        <button type="button" onclick="alturatriangulou()">
+            Calcular la altura 
+        </button>
+        <p>Resultado:</p> 
+        <p id="Altura_triangulo"> </p>
+        </div>
+        <div class="circulo">
+            <div id="circulo_titulo">Calcula el área y la circunferencia de un círculo</div>
+        <form>
+            <label for="inputcirculo">
+            Por favor introduce el radio del circulo
+            </label>
+            <script src="./circulo.js"></script>
+            <input id="inputcirculo" type="number">
+            <button type="button" onclick="areacirculou()">
+            Calcular área
+            </button>
+            <button type="button" onclick="circunferenciau()">
+            Calcular circunferencia
+            </button>
+            <p>Resultado:</p> 
+            <p id="circunferencia"> </p>
+            <p id="circuloarea"> </p>
+        </div>
+        <div class="cuadrado">
+        <div id="cuadrado_titulo"> Calcula el área y perímetro de un cuadrado</div>
+        <form>
+            <label for="inputcuadrado">
+            Por favor introduce el lado del cuadrado
+            </label>
+            <script src="./figuras.js"></script>
+            <input id="inputcuadrado" type="number">
+            <button type="button" onclick="perimetrocuadradou()">
+            Calcular Perímetro
+            </button>
+            <button type="button" onclick="areacuadradou()">
+            Calcular Área
+            </button>
+            <p>Resultado:</p> 
+        <p id="perimetro"> </p>
+        <p id="area"> </p>
+        </div>
+    </main>
+</body>
+</html>

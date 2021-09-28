@@ -1,12 +1,14 @@
 function perimetrocuadrado(lado){
     console.log ("El perimetro de tu cuadrado es " + lado*4+ " cm")
-    alert('El perimetro de tu cuadrado es ' + lado*4+ ' cm')
+    var mensajep = document.getElementById("perimetro")
+mensajep.innerText ='El perimetro de tu cuadrado es ' + lado*4+ ' cm'
     }
 
 function areacuadrado(lado){
     console.log ("El area de tu cuadrado es " + lado*lado+ " cm")
-    alert('El area de tu cuadrado es ' + lado*lado + ' cm')
-    }
+    var mensajea = document.getElementById("area")
+    mensajea.innerText ="El area de tu cuadrado es " + lado*lado+ " cm^2"
+}
 
 function perimetrocuadradou(){
     var input = document.getElementById("inputcuadrado");

@@ -69,6 +69,7 @@ main{
     width: 100%;
     align-items: bottom;
     height: 500px;
+    position: absolute;
 }
 
 .titulo_main{
@@ -139,4 +140,22 @@ p{
 #taller4{
     margin-right: 10px;
     margin-left: none;
+}
+
+.logo_platzi{
+    display: flex;
+    position: relative;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height:62px;
+    top: 90%;
+    color:white;
+    background-color:black;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
 }
