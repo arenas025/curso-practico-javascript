@@ -7,7 +7,7 @@ function areacirculo(radio){
 function circunferencia(radio){
     console.log ("La circunferencia de el círculo es " + 3.14*radio*2+ " cm")
     var mensajec = document.getElementById("circunferencia")
-    mensajec.innerText ="La circunferencia de el círculo es " + 3.14*radio*2+ " cm"
+    mensajec.innerText ="El área del círculo es " + 3.14*(radio*radio)+ " cm^2"
 }
 
 function areacirculou(){
